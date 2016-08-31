@@ -23,7 +23,6 @@ namespace UnblockSharp
                 throw new ArgumentNullException(nameof(fileName));
             }
 
-            
             return DeleteFile($"{fileName}:Zone.Identifier");
         }
 
